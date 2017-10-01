@@ -5,10 +5,29 @@
  *
  * Made By MaterializeCSS.com
  */
+body{
+  background-color: rgba(0, 0, 0, 0.93);
+}
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+.navbar-fixed{
+  position: absolute;
+}
+
+.nav-background{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav-wrapper{
+  margin: 0px 50px;
+}
+
+.hero-text{
+  padding-top: 120pt;
+}
+
+.services-text{
+  color: rgba(255,255,255,0.7);;
 }
 
 p {
@@ -22,12 +41,16 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 550px;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
   }
+
+i.icon-white{
+  color: rgba(255,255,255,0.9);
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -53,5 +76,6 @@ p {
 }
 
 footer.page-footer {
+  background-color: rgba(0, 0, 0, 0.2);
   margin: 0;
 }
