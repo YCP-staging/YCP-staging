@@ -9,6 +9,11 @@ body{
   background-color: rgba(0, 0, 0, 0.93);
 }
 
+img.portrait {
+    max-width: 75%;
+    max-height: 75%;
+}
+
 video {
   width: 100%;
   object-fit: fill;
@@ -31,11 +36,11 @@ video {
   padding-top: 120pt;
 }
 
-.services-container{
+.section-container-custom{
   margin: 15px 75px;
 }
 
-.services-text{
+.section-text{
   color: rgba(255,255,255,0.75);;
 }
 
@@ -50,7 +55,7 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: 655px;
+  height: 100vh;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -84,7 +89,34 @@ i.icon-white{
   font-size: inherit;
 }
 
+/* label color */
+ .input-field label {
+   color: rgba(255,255,255,0.7);
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: rgba(255,255,255,0.7);
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid rgba(255,255,255,0.7);
+   box-shadow: 0 1px 0 0 rgba(255,255,255,0.7);
+ }
+
+
 footer.page-footer {
   background-color: rgba(0, 0, 0, 0.2);
   margin: 0;
+}
+
+img.image-social{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+div.footer-section p{
+  color: rgba(255,255,255,0.2);
+  font-size: 8pt;
+  text-align: justify;
+  line-height: 12pt;
 }
